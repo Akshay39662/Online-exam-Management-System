@@ -1,0 +1,108 @@
+.create-exam-container {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.create-exam-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.message {
+    text-align: center;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.exam-form .form-group {
+    margin-bottom: 1rem;
+}
+
+.exam-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.exam-form input[type="text"],
+.exam-form input[type="number"],
+.exam-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.question-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.question-card h4 {
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.option-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.option-input input[type="text"] {
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+
+.option-input input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.remove-btn,
+.add-btn,
+.submit-btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.remove-btn {
+    background-color: #f44336;
+    color: white;
+    margin-top: 1rem;
+}
+
+.add-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.submit-btn {
+    background-color: #4caf50;
+    color: white;
+}
